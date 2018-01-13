@@ -24,13 +24,14 @@ header{
 }
 
 .logo {
+  display: flex;
   padding-left: 10px;
   align-items: center;
+  color: seashell;
 }
 
 .logo img {
   height: 50px;
-  color: seashell;
 }
 
 .nav {
@@ -42,16 +43,31 @@ padding: 10px;
 }
 
 .content{
+  display: flex;
   position: absolute;
+  width: 100%;
   padding-top: 69px;
+  flex-direction: column;
+  justify-content: center;
+
 }
 .mission {
   display: flex;
   height: 700px;
   width: 1200px;
-  background-image: url("resources\images\img-mission-background.jpg");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  align-items: center;
+  justify-content: center;
 }
-footer {
-  margin-left: 20px;
-  z-index: 5;
-}
+
+.mission .text-content{
+  width: 1200px;
+  background-color: black;
+  }
+
+.tea-month {
+  display: flex;
+  
+  width: 1000px;
+  justify-content: center;
+  }
