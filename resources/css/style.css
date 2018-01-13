@@ -70,15 +70,65 @@ padding: 10px;
 .tea-month {
   margin: 0 auto;
   width: 1000px;
-  justify-content; space-around;
+  justify-content; center;
 
   }
-.tea-month .image{
+.tea-month.image{
   display: inline-flex;
 }
 .image {
-  display: inline-flex;
+  padding: 10px;
   height: 200px;
   width: 300px;
+  }
 
+.locations {
+    margin: 0 auto;
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    flex-direction: column;
+    
+    }
+
+
+.head{
+  margin: 0 auto;
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  padding: 10px;
+  justify-content: center;
+
+
+}
+
+.addresses{
+  display: inline-flex;
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+}
+
+.downtown {
+  width: 300px;
+  background-color: black;
+  margin: 5px 20px;
+  padding: 10px;
+
+  }
+
+.east-bayside {
+  width: 300px;
+  background-color: black;
+  margin: 5px 20px;
+  padding: 10px;
+  }
+
+.oakdale {
+  width: 300px;
+  background-color: black;
+  margin: 5px 20px;
+  padding: 10px;
   }
