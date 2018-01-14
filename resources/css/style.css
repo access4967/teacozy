@@ -142,10 +142,9 @@ padding: 10px;
   }
 
 footer {
-  position: fixed;
-  align-items: flex-end;
   width: 100%
   padding: 60px 0;
   text-align: left;
+  align-items: flex-end;
 
   }
