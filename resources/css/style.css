@@ -5,7 +5,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 a {
@@ -42,7 +42,7 @@ header{
 }
 
 .nav span{
-padding: 10px;
+  padding: 10px;
 }
 
 .content{
@@ -55,38 +55,49 @@ padding: 10px;
 }
 /*Our Mission*/
 .mission {
-  position: relative;
   margin: 0 auto;
   display: flex;
   height: 700px;
   width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   align-items: center;
-  justify-content: center;
 }
 
 .mission .text-content{
   width: 1200px;
   background-color: black;
+  text-align: center;
   }
 
 /*Featured Tea*/
 .tea-month {
+  display: flex;
   margin: 0 auto;
   width: 1000px;
-  justify-content; center;
+  flex-direction: column;
   }
 
-.tea-month.image{
-  display: inline-flex;
+ .tea-month .text-content {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
+
+.feature {
+  display; inline-flex;
+  justify-content: space-around;
+
+  }
+
 .image {
-  padding: 10px;
   height: 200px;
   width: 300px;
   }
 
+.menu {
+  padding-top: 10px;
+}
 /*Locations*/
 .locations {
   margin: 0 auto;
@@ -99,11 +110,9 @@ padding: 10px;
   }
 
 .head {
-  margin: 0 auto;
   display: flex;
-  height: 500px;
-  width: 1200px;
   padding: 10px;
+  margin: 0 auto;
   justify-content: center;
 }
 
@@ -111,7 +120,7 @@ padding: 10px;
   display: inline-flex;
   height: 500px;
   width: 1200px;
-  justify-content: center;
+  justify-content:center;
 }
 
 .downtown {
@@ -119,6 +128,7 @@ padding: 10px;
   background-color: black;
   margin: 5px 20px;
   padding: 10px;
+  text-align: center;
   }
 
 .east-bayside {
@@ -126,6 +136,7 @@ padding: 10px;
   background-color: black;
   margin: 5px 20px;
   padding: 10px;
+  text-align: center;
   }
 
 .oakdale {
@@ -133,16 +144,18 @@ padding: 10px;
   background-color: black;
   margin: 5px 20px;
   padding: 10px;
+  text-align: center;
   }
 
 .contact {
   height: 200px;
+  text-align: center;
   flex-direction: column;
   }
 
 footer {
   width: 100%;
-  padding-bottom: 60px 0;
+  margin-left: 20px;
   text-align: left;
   align-items: flex-end;
 
