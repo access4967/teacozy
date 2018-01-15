@@ -68,24 +68,22 @@ header{
   background-color: black;
   text-align: center;
   }
-
 /*Featured Tea*/
+
 .tea-month {
   display: flex;
   margin: 0 auto;
   width: 1000px;
+  justify-content: center;
   flex-direction: column;
+  text-align: center;
   }
 
- .tea-month .text-content {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-
-
 .feature {
-  display; inline-flex;
+  display: flex;
+  margin: 0 auto;
+  width: 1000px;
+  flex-wrap: wrap;
   justify-content: space-around;
 
   }
@@ -93,10 +91,13 @@ header{
 .image {
   height: 200px;
   width: 300px;
+  margin-right: 10px;
+  position: relative;
   }
 
 .menu {
-  padding-top: 10px;
+  position: relative;
+  margin-top: 10px;
 }
 /*Locations*/
 .locations {
@@ -106,27 +107,30 @@ header{
   width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   flex-direction: column;
-
+  align-items: center;
   }
 
 .head {
   display: flex;
-  padding: 10px;
   margin: 0 auto;
   justify-content: center;
+  position: relative;
 }
 
 .addresses{
   display: inline-flex;
-  height: 500px;
   width: 1200px;
   justify-content:center;
+  position: relative;
+  margin-top: 10px;
+
 }
 
 .downtown {
   width: 300px;
   background-color: black;
-  margin: 5px 20px;
+  margin-top: 5px;
+  margin-right:40px;
   padding: 10px;
   text-align: center;
   }
